@@ -12,3 +12,40 @@ Análisis completo del dataset "Trasplante de órganos y tejidos" del Centro Nac
 Predicción del precio de acciones Nvidia.
 ## Resumen
 Aplicación y comparación de modelos ARIMA, Prophet (Facebook/Meta) y Red Neuronal (LSTM) para la predicción de la serie temporal del precio de cierre de las acciones de la empresa Nvidia.
+
+Metodología:
+
+Exploratory Data Analysis (EDA):
+
+-Visualización de la serie
+-Análisis de tendencia
+-Retornos logarítmicos
+-Prueba de estacionariedad (ADF)
+
+Modelos implementados:
+
+-ARIMA (baseline estadístico)
+-Prophet (modelo aditivo con regresores)
+-LSTM (red neuronal recurrente)
+
+Evaluación:
+
+División temporal train/test
+
+Métricas:
+
+-MAE
+-RMSE
+-MAPE
+
+Análisis de residuos y prueba de Ljung-Box
+
+
+Tecnologías utilizadas:
+
+Python
+-Pandas, NumPy
+-statsmodels, pmdarima
+-Prophet
+-TensorFlow / Keras
+-Matplotlib
