@@ -34,9 +34,9 @@ División temporal train/test
 
 Métricas:
 
--MAE
--RMSE
--MAPE
+- MAE
+- RMSE
+- MAPE
 
 Análisis de residuos y prueba de Ljung-Box
 
